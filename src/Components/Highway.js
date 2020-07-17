@@ -8,7 +8,7 @@ export default function Highway() {
     timing: {
       playbackRate: 1,
 
-      duration: 5000,
+      duration: 2500,
       iterations: Infinity,
     },
   });
@@ -20,7 +20,7 @@ export default function Highway() {
 
   return (
     <div className="highway"  >
-      <img src={require("./../Images/road.jpg")} alt="" ref={ref}  />
+      <img src={require("./../Images/road.jpg")} alt="" ref={ref} />
     </div>
   );
 }

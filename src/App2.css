@@ -59,7 +59,21 @@
     z-index: 2;
 
 }
+.backwheel{
+    width: 72px;
+    height: 72px;
+    position: relative;
+    left: 35px;
+    bottom: 5px;
 
+}
+.frontwheel{
+    width: 72px;
+    height: 72px;
+    position: relative;
+    left: 208px;
+    bottom: 5px;
+}
 
 @media (max-width:650px){
 

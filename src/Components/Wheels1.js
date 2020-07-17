@@ -2,13 +2,13 @@ import React from "react";
 import useWebAnimations from "@wellyshen/use-web-animations";
 import "./../App2.css";
 
-export default function City() {
+export default function Wheels1() {
   const { ref, getAnimation } = useWebAnimations({
-    keyframes: { transform: ["translateX(-1400px)"] },
+    keyframes: { transform: ["rotate(360deg)"] },
     timing: {
       playbackRate: 1,
 
-      duration: 30000,
+      duration: 1000,
       iterations: Infinity,
     },
   });
@@ -19,9 +19,9 @@ export default function City() {
   // };
 
   return (
-    <div className="city">
-      <img src={require("./../Images/city.png")} alt="" width="850%" ref={ref} />
+    <>
       
-    </div>
+      <img src={require("./../Images/wheel.png")} alt="" className='frontwheel' ref={ref}/>
+    </>
   );
 }

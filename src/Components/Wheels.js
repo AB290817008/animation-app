@@ -1,14 +1,15 @@
 import React from "react";
 import useWebAnimations from "@wellyshen/use-web-animations";
 import "./../App2.css";
+import Wheels1 from './Wheels1'
 
 export default function Wheels() {
   const { ref, getAnimation } = useWebAnimations({
-    keyframes: { transform: ["translateX(-50%)"] },
+    keyframes: { transform: ["rotate(360deg)"] },
     timing: {
       playbackRate: 1,
 
-      duration: 5000,
+      duration: 1000,
       iterations: Infinity,
     },
   });
@@ -19,8 +20,9 @@ export default function Wheels() {
   // };
 
   return (
-    <div className="wheels">
-      <img src={require("./../Images/wheel.png")} alt=""  />
+    <div className="wheels" >
+      <img src={require("./../Images/wheel.png")} alt="" className='backwheel' ref={ref}/>
+      <Wheels1/>
     </div>
   );
 }

@@ -21,7 +21,7 @@ export default function Car() {
 
   return (
     <div className="car" >
-      <img src={require("./../Images/car.png")} alt="" width="100%" ref={ref} onClick={speedUp}/>
+      <img src={require("./../Images/car.png")} alt="" width="100%" />
     </div>
   );
 }

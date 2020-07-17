@@ -15,6 +15,7 @@ export default function App() {
       <Highway />
       <City />
       <Car/>
+      <Wheels/>
     </div>
   );
 }
