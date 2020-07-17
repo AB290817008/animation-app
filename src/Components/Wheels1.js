@@ -4,7 +4,7 @@ import "./../App2.css";
 
 export default function Wheels1() {
   const { ref, getAnimation } = useWebAnimations({
-    keyframes: { transform: ["rotate(360deg)"] },
+    keyframes: { transform: ["rotate(360deg)"]},
     timing: {
       playbackRate: 1,
 

@@ -37,6 +37,7 @@
   display: block;
   z-index: 1;
   background-repeat: repeat-x;
+  animation: 20s linear infinite;
   
   
 }
@@ -47,6 +48,7 @@
     bottom: 100px;
     position: absolute;
     z-index: 2;
+    
 
 }
 
@@ -57,7 +59,7 @@
     bottom: 100px;
     position: absolute;
     z-index: 2;
-
+    animation: 5s linear infinite;
 }
 .backwheel{
     width: 72px;
@@ -102,3 +104,12 @@
       }
 
 }
+
+/* @keyframes wheels{
+
+   
+0%{
+    transform:rotate(360deg);
+
+}
+} */

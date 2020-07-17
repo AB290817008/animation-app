@@ -7,16 +7,16 @@ export default function Highway() {
     keyframes: { transform: ["translateX(-3200px)"] },
     timing: {
       playbackRate: 1,
-
+      
       duration: 2500,
       iterations: Infinity,
     },
   });
 
-  // const speedUp = () => {
-  //   const animation = getAnimation();
-  //   animation.updatePlaybackRate(animation.playbackRate * 1.9);
-  // };
+  const speedUp = () => {
+    const animation = getAnimation();
+    animation.updatePlaybackRate(animation.playbackRate * 1.25);
+  };
 
   return (
     <div className="highway"  >

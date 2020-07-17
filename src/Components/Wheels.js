@@ -6,6 +6,7 @@ import Wheels1 from './Wheels1'
 export default function Wheels() {
   const { ref, getAnimation } = useWebAnimations({
     keyframes: { transform: ["rotate(360deg)"] },
+    
     timing: {
       playbackRate: 1,
 
