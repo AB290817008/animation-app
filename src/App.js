@@ -1,26 +1,20 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import useWebAnimations from "@wellyshen/use-web-animations";
+import "./App2.css";
 
-function App() {
+import Highway from "./Components/Highway";
+import City from "./Components/City";
+import Car from "./Components/Car";
+import Wheels from './Components/Wheels'
+
+
+export default function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="main">
+      <img src={require("./Images/sky.jpg")} alt="" />
+      <Highway />
+      <City />
+      <Car/>
     </div>
   );
 }
-
-export default App;
