@@ -144,7 +144,7 @@ function App() {
       </div>
 
       <div className="car-container" ref={carAnim.ref}>
-        <img src={require("./Images/car.png")} alt="" style={{position:'relative',bottom:'100px' }}></img>
+        <img src={require("./Images/car.png")} alt="" style={{position:'relative',bottom:'100px',right:'435px'}}></img>
         {/* <div className="car-top1">
               <div className="window1"></div>
               <div className="window2"></div>
